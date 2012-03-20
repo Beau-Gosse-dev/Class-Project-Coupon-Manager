@@ -47,11 +47,8 @@ public class CouponList extends Activity {
 			Button b = new Button(this);
 			final String name = itemI.getName();
 			final String value = itemI.getValue();
-			
-			// TextViews
-			final TextView nameText = (TextView) findViewById(R.id.bCoupon);
-						
-			nameText.setText(name);
+					
+			b.setText(name);
 			
 			//b.setTag(itemI.getName());
 			//b.setTag(2, itemI.getValue());
