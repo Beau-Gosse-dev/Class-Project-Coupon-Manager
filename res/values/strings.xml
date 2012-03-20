@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Coupon Manager</string>
+    <string name="txt_signup">Sign up!</string>
+    <string name="txt_signupInfo">Fill out the form to sign up</string>
+    <string name="txt_username">Username:</string>
+    <string name="txt_usernameOrEmail">Username or Email:</string>
+    <string name="txt_password">Password:</string>
+    <string name="txt_welcomeUser">Welcome Back </string>
+    <string name="txt_email">Email:</string>
+    <string name="txt_loginInfo">Login or create an account:</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_scanCoupon">Scan a Coupon</string>
+    
+    
+    <string name="txt_coupon">Coupon</string><string name="txt_settings">Settings</string><string name="txt_shoppinglist">Shopping List</string><string name="txt_couponlist">Coupon list</string><color name="backgroundColor">#1FDBA6</color>
+    
+    
+    
+    
+    
+    
+</resources>

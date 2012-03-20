@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColor" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="418dp" >
+
+        <TextView
+            android:id="@+id/tWelcomeUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/txt_welcomeUser"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bScanCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tWelcomeUser"
+            android:text="@string/txt_scanCoupon" />
+
+        <Button
+            android:id="@+id/bCouponList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bScanCoupon"
+            android:text="@string/txt_couponlist" />
+
+        <Button
+            android:id="@+id/bShoppingList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bCouponList"
+            android:text="@string/txt_shoppinglist" />
+
+        <Button
+            android:id="@+id/bSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bShoppingList"
+            android:text="@string/txt_settings" />
+
+        <Button
+            android:id="@+id/bLogout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bSettings"
+            android:text="@string/txt_logout" />
+
+    </RelativeLayout>
+
+</ScrollView>
